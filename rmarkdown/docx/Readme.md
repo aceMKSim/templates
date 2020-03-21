@@ -1,4 +1,5 @@
 R markdown templates
 
-+ `template1.docx`: 템플릿 파일
++ `template1.docx`
 + `template2.docx`: New version
++ `template3.doxc`: 도서용 version
