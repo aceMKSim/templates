@@ -7,7 +7,7 @@ output:
   word_document:
     reference_docx: template3.docx
     toc: true
----
+```
 
 ## R markdown templates
 
