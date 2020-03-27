@@ -6,5 +6,4 @@
 
 # Current Issue
 
-+ 코드블럭 배경색 지정안됨
 + Two Column으로 하였을 때에 YAML metadata 생성 안됨
