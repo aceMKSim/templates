@@ -9,3 +9,12 @@
 ## A theme-colortheme matrix
 
 <https://mpetroff.net/files/beamer-theme-matrix/>
+
+임시:
+
+`latex_topmatter.tex`
+
+```
+% Finally for italic font! (2020-04-28)
+\setmainfont[]{Palatino Linotype}
+```
