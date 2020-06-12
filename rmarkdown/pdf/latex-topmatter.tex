@@ -1,0 +1,72 @@
+% pdf
+
+\usepackage[style=british]{csquotes}
+
+% Hangul in rchunk 2019-02-12  
+% Not the output yet
+% Finally for italic font! (2020-04-28)
+\usepackage{fontspec}
+\usepackage[hangul]{kotex}
+\setmainfont[]{Palatino Linotype}
+\setmainhangulfont{NanumMyeongjo}[AutoFakeSlant]
+
+
+\usepackage{pdflscape}
+\usepackage{colortbl}
+% \usepackage[table]{xcolor}
+\newcolumntype{U}{>{\columncolor[gray]{0.8}}c}
+\usepackage{tabularx,booktabs}
+\usepackage{boxedminipage}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{rotfloat}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{titlepic}
+\usepackage{graphicx}
+
+% Shading code blocks (2020-03-27)
+% Try other colors!
+\usepackage{xcolor}
+\usepackage{amsthm}
+\usepackage{framed}
+\renewenvironment{Shaded}{\colorlet{shadecolor}{blue!3}\begin{shaded}}{\end{shaded}}
+
+% Quotation environment (2020-06-12)
+\usepackage{quoting,xparse}
+% \NewDocumentEnvironment{pquotation}
+  % {\begin{quoting}[
+  %    indentfirst=true,
+  %    leftmargin=\parindent,
+  %    rightmargin=\parindent]\itshape}
+  % {\end{quoting}}
+% \renewenvironment{quote}{\begin{pquotation}}{\end{pquotation}}
+\renewenvironment{quote}{\colorlet{shadecolor}{green!3}\begin{shaded}\begin{quoting}[
+  indentfirst=true,
+  leftmargin=0.5in,
+  rightmargin=0.5in]\itshape}
+{\end{quoting}\end{shaded}}
+
+% vspace shortcut (2018-05-23)
+\def\br{\vspace{1pt}} % line break
+
+% split vertically (2018-12-27)
+\def\lc48{\begin{minipage}{0.48\textwidth}}
+\def\rc48{\end{minipage}\begin{minipage}{0.48\textwidth}}
+\def\ec48{\end{minipage}}
+
+\def\lc24{\begin{minipage}{0.24\textwidth}}
+\def\rc24{\end{minipage}\begin{minipage}{0.24\textwidth}}
+\def\ec24{\end{minipage}}
+
+% \setfont{quote}{shape=\itshape,family=\rmfamily}
+
+
+
+
+
+
+
