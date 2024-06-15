@@ -7,3 +7,25 @@
 ### 1. beamer
 
 ![](fig/fig_beamer_1.png)
+![](fig/fig_beamer_2.png)
+![](fig/fig_beamer_3.png)
+
+### 2. pdf - essay
+
+![](fig/fig_essay.png)
+
+### 3. pdf - technical note
+
+![](fig/fig_tech_note_1.png)
+![](fig/fig_tech_note_2.png)
+![](fig/fig_tech_note_3.png)
+
+### 4. tufte
+
+![](fig/fig_tufte_1.png)
+![](fig/fig_tufte_2.png)
+
+
+fig_tech_note_1
+
+
