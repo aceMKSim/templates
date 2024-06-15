@@ -6,4 +6,4 @@
 
 ### 1. beamer
 
-![fig/fig_beamer_1.png]
+![](fig/fig_beamer_1.png)
