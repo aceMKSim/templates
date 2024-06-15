@@ -26,6 +26,3 @@
 ![](fig/fig_tufte_2.png)
 
 
-fig_tech_note_1
-
-
